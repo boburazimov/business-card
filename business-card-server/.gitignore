@@ -34,3 +34,4 @@ build/
 business-card-server/.mvn
 business-card-server/.mvnw
 business-card-server/.mvnw.cmd
+/.mvn/
