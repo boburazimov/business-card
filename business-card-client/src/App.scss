@@ -1,6 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 
+#scalemaxmin{
+  margin: 100px 100px;
+  width: 200px;
+  height: 100px;
+  background: #000;
+  color: #7FFF00;
+  font-family: Arial, fantasy;
+  font-weight: 500;
+  font-size: 3.5em;
+  text-align: center;
+  line-height: 100px;
+  transition: all 0.5s ease;
+}
+#scalemaxmin:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
 .bg-img {
+
+  #navbarBrand{
+    border-color: aqua;
+  }
   background-image: url("./component/img/banner.jpg");
   min-height: 800px;
   .div1 {
