@@ -13,7 +13,8 @@ function MainNavBar() {
                         height="30"
                         className="d-inline-block align-top"
                     />{' '}
-                    React-Bootstrap</Navbar.Brand>
+                    <span id="underline">Bobur Azimov</span>
+                    </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Form inline className="mr-auto">
