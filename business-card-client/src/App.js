@@ -7,7 +7,12 @@ function App() {
     return (
         <div className="App">
             <MainNavBar/>
-            <ParticlesBg color="#ff0000" num={200} type="cobweb" bg={true} />
+            <header>
+
+            <div className="particle">
+              <ParticlesBg class="particleBg" color="#5a5a5a" num={100} type="cobweb" bg={true} />
+            </div>
+            </header>
         </div>
     );
 }
